@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+
+
+
+nav{
+    background-color:lightblue;
+    overflow: hidden;
+
+  
+    display:block;
+
+ 
+}
+nav ul{
+    list-style-type:none ;
+    display: grid;
+    grid-template-columns:20% 20% 20% 20%  20%;
+    text-align: center;
+
+}
+
+nav > ul > li:hover ul{
+    display: block;
+
+}
+a:hover{
+   background-color: lightblue; 
+}
