@@ -4,27 +4,29 @@ body{
 
 
 
-nav{
-    background-color:lightblue;
-    overflow: hidden;
-
-  
-    display:block;
-
- 
-}
-nav ul{
-    list-style-type:none ;
-    display: grid;
-    grid-template-columns:20% 20% 20% 20%  20%;
-    text-align: center;
-
+/* nav starts */
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(18, 172, 199);
+  grid-area: nav;
 }
 
-nav > ul > li:hover ul{
-    display: block;
+li {
+  float: left;
+}
 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-a:hover{
-   background-color: lightblue; 
+
+li a:hover {
+  background-color: blue;
 }
+/* nav starts ends  */

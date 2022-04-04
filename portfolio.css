@@ -1,0 +1,41 @@
+/* nav starts */
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(18, 172, 199);
+  grid-area: nav;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: blue;
+}
+/* nav  ends  */
+
+body{
+    display: grid;
+    grid-template-rows:auto;
+    grid-template-columns: 40% 60%  ;
+    grid-template-areas:    "nav nav nav "
+                          "part1 part1 part1"
+                          "part2 part2 part2"
+                          "part3 part3 part3";
+
+    float: left;
+     text-align: center;    
+}
+
+
