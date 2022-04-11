@@ -10,8 +10,9 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(18, 172, 199);
+  background-color: rgb(0, 174, 255);
   grid-area: nav;
+
 }
 
 li {
@@ -29,4 +30,4 @@ li a {
 li a:hover {
   background-color: blue;
 }
-/* nav starts ends  */
+/* nav ends */
