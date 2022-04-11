@@ -4,8 +4,9 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(18, 172, 199);
+  background-color: #333;
   grid-area: nav;
+
 }
 
 li {
@@ -23,19 +24,49 @@ li a {
 li a:hover {
   background-color: blue;
 }
-/* nav  ends  */
 
+part1{
+    grid-area: part1;
+
+}
+
+
+part2{
+    grid-area: part2;
+    float: left;
+}
+
+
+part3{
+    grid-area: part3;
+    float: left;
+    
+
+}
+
+/* nav starts ends  */
 body{
     display: grid;
     grid-template-rows:auto;
     grid-template-columns: 40% 60%  ;
-    grid-template-areas:    "nav nav nav "
-                          "part1 part1 part1"
-                          "part2 part2 part2"
-                          "part3 part3 part3";
-
-    float: left;
-     text-align: center;    
+    grid-template-areas:  "nav nav  "
+                          "part1 part2"
+                          "part3 part4"
+                         
+                          "footer footer ";
+list-style: none;
+    align-items: center;
+    
 }
-
+footer {
+    align-items: flex-end;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:white;
+        color: white;
+        text-align: center;
+        grid-area:footer;
+    }
 
