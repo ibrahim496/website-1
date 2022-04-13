@@ -34,12 +34,15 @@ li a:hover {
 part1{
     grid-area: part1;
 
+
 }
 
 
 part2{
     grid-area: part2;
     float: left;
+
+    
 }
 
 
@@ -52,6 +55,7 @@ part3{
 
 /* nav starts ends  */
 body{
+    text-align: center;
     display: grid;
     grid-template-rows:auto;
     grid-template-columns: 40% 60%  ;
@@ -62,6 +66,7 @@ body{
                           "footer footer ";
 list-style: none;
     align-items: center;
+
     
 }
 footer {
