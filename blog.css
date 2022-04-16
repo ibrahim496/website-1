@@ -25,3 +25,48 @@ li a:hover {
   background-color: blue;
 }
 /* nav ends */
+
+main{
+grid-area: main;
+background-color: white;
+}
+aside{
+    grid-area: aside; 
+    background-color:rgb(103, 143, 161);
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+body {
+    display: grid;
+    grid-template-columns: 40%  60%;
+grid-template-rows:auto;
+grid-template-areas: "nav nav"
+                    "main aside"
+                    "footer footer";
+                    
+                
+}
+
+.container:hover{
+    
+    filter: grayscale(1);
+    border-style: none;
+    border-radius: 100%;
+    transition: background-size 1.6s ease;
+    filter: grayscale(1);
+    transition: background-size 1.6s ease; 
+}
+footer {
+  align-items: flex-end;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color:rgb(0, 174, 255);
+      color: white;
+      text-align: center;
+      grid-area:footer;
+  }
