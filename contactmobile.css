@@ -1,0 +1,92 @@
+
+nav {
+  display: none;
+background-color: rgb(167, 167, 207); 
+position: fixed;
+top: 0;
+right: 80%;
+width: 20%;
+    height: 100vh;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: blue;
+}
+/* nav ends */
+
+/* hamburger icon begins */
+.shownav {
+height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid orange;
+    border-bottom: 0.2em solid orange;
+   border-radius: 0.1em;
+}
+ .shownav:before { 
+     content: '';
+    position: absolute;
+    width: 1.25em;
+    margin-top: 0.3em;
+   
+    border-top: 0.2em solid green;
+}
+ #clicked .shownav {display: block;}
+#clicked .nav {display: none}
+
+#clicked:target .shownav{display: none;}
+#clicked:target nav{display:block;}
+
+.hidenav{display:none;}
+#clicked:target .hidenav{display:block;}
+/* handburger icon ends*/
+
+body{
+background-image:url("images/contact-page-background-2.jpeg");
+    text-align: center;
+}
+
+h1{
+    color:white;
+}
+
+div{
+    grid-area: social;
+     background-color: rgb(63, 63, 100);
+}
+input{
+    border: 2px solid white;
+}
+
+hr{
+        height: 1px;
+        background-color: #ccc;
+        border: none;
+    }
+
+p1{
+    color: white;
+    float: centre;
+   
+}
+
+form{
+    background-color: rgb(63, 63, 100);
+    border: 20px purple;
+    margin: 20px;
+    padding: 20px;
+}
+
+
