@@ -38,7 +38,7 @@ part1{
 }
 
 
-part2{
+.part2{
     grid-area: part2;
     float: left;
 
@@ -46,7 +46,7 @@ part2{
 }
 
 
-part3{
+.part3{
     grid-area: part3;
     float: left;
     
