@@ -50,6 +50,9 @@ height: 0.8em;
 
 #clicked:target .shownav{display: none;}
 #clicked:target nav{display:block;}
+.hidenav{
+    color: white;
+}
 
 .hidenav{display:none;}
 #clicked:target .hidenav{display:block;}

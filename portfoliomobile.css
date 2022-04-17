@@ -56,7 +56,9 @@ height: 0.8em;
 #clicked:target .hidenav{display:block;}
 /* handburger icon ends*/
 
-
+body{
+    background-image:url("images/Savin-NY-Website-Background-Web.jpg");
+}
 *{
   margin: 0;
   padding: 0;

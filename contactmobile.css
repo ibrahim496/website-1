@@ -45,6 +45,8 @@ height: 0.8em;
    
     border-top: 0.2em solid green;
 }
+
+
  #clicked .shownav {display: block;}
 #clicked .nav {display: none}
 
@@ -52,8 +54,10 @@ height: 0.8em;
 #clicked:target nav{display:block;}
 
 .hidenav{display:none;}
+.hidenav{
+    color: white;
+}
 #clicked:target .hidenav{display:block;}
-/* handburger icon ends*/
 
 body{
 background-image:url("images/contact-page-background-2.jpeg");
