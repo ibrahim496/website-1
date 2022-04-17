@@ -9,7 +9,9 @@ nav {
   grid-area: nav;
 
 }
-
+ul{
+   list-style-type: none;
+}
 li {
   float: left;
 }

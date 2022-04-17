@@ -12,7 +12,9 @@ nav {
 li {
   float: left;
 }
-
+ul{
+   list-style-type: none;
+}
 li a {
   display: block;
   color: white;

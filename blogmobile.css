@@ -1,14 +1,16 @@
-
+/* nav starts */
 nav {
   display: none;
 background-color: rgb(167, 167, 207); 
 position: fixed;
 top: 0;
-right: 80%;
+left: 80%;
 width: 20%;
     height: 100vh;
 }
-
+ul{
+   list-style-type: none;
+}
 li {
   float: left;
 }
@@ -20,9 +22,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-ul{
-   list-style-type: none;
-}
+
 li a:hover {
   background-color: blue;
 }
@@ -55,40 +55,39 @@ height: 0.8em;
 #clicked:target .hidenav{display:block;}
 /* handburger icon ends*/
 
-body{
-background-image:url("images/contact-page-background-2.jpeg");
-    text-align: center;
-}
 
-h1{
-    color:white;
-}
-
-div{
-    grid-area: social;
-     background-color: rgb(63, 63, 100);
-}
-input{
-    border: 2px solid white;
-}
-
-hr{
-        height: 1px;
-        background-color: #ccc;
-        border: none;
+.aside, .main {
+        width:100%; 
+      }
+    body{
+        background-color:rgb(103, 143, 161);;
+    color: white;
     }
 
-p1{
-    color: white;
-    float: centre;
-   
+.container:hover{
+    
+    filter: grayscale(1);
+    border-style: none;
+    border-radius: 100%;
+    transition: background-size 1.6s ease;
+    filter: grayscale(1);
+    transition: background-size 1.6s ease; 
+}
+.p4{
+position: relative;
+top: 60px;
+
 }
 
-form{
-    background-color: rgb(63, 63, 100);
-    border: 20px purple;
-    margin: 20px;
-    padding: 20px;
-}
-
-
+footer {
+  align-items: flex-end;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      height: 15px;
+      width: 100%;
+      background-color:rgb(0, 174, 255);
+      color: white;
+      text-align: center;
+      grid-area:footer;
+  }

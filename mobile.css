@@ -2,7 +2,7 @@
 /* nav starts */
 nav {
   display: none;
-background-color: rgb(167, 167, 207); 
+background-color: rgb(180, 174, 206); 
 position: fixed;
 top: 0;
 left: 50%;
@@ -20,6 +20,9 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+ul{
+   list-style-type: none;
 }
 
 li a:hover {
